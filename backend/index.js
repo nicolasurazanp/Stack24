@@ -12,7 +12,7 @@ dotenv.config();
 conectarDB();
 
 // Routing
-app.use("/appi/usuarios", usuarioRoutes);
+app.use("/api/usuarios", usuarioRoutes);
 
 
 
